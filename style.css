@@ -51,6 +51,7 @@ h1{
 .ram{
     left: 50%;
     margin-right: -50%;
+    top: 40%;
     position: absolute;
     transform: translate(-50%, -50%);
 }
