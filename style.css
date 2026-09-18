@@ -48,6 +48,9 @@ h1{
     margin-bottom: 25px;
     width: 200px;
 }
+.other_sites:hover{
+    color:#4d473f;
+}
 .ram{
     left: 50%;
     margin-right: -50%;
