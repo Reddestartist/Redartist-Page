@@ -62,3 +62,6 @@ hr{
 h2{
     font-size: 32px;
 }
+*{
+    cursor: url('Cursor.ico'), default
+}
