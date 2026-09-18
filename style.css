@@ -57,11 +57,14 @@ h1{
 }
 hr{
     border: 1px solid black;
-    width: 50%;
+    width: 75%;
 }
 h2{
     font-size: 32px;
 }
 *{
     cursor: url('Cursor.ico'), default
+}
+img{
+    padding: 5px;
 }
