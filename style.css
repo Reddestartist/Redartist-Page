@@ -6,7 +6,7 @@ body{
     background-color: #393E46;
     color: white;
 }
-ul{
+.navbar{
     list-style-type: none;
     background-color:#222831;
     margin: 0;
@@ -14,23 +14,23 @@ ul{
     position: sticky;
     top: 0;
 }
-ul::after{
+.navbar::after{
     content: "";
     display: table;
     clear: both;
     display: flex;
 }
-ul li{
+.navbar li{
     float: left;
 }
-ul li a{
+.navbar li a{
     display: block;
     color: white;
     text-align: center;
     padding: 25px       ;
     text-decoration: none;
 }
-ul li a:hover{
+.navbar li a:hover{
     background-color: #0e1014;
 }
 h1{
@@ -50,12 +50,8 @@ h1{
 .other_sites:hover{
     background-color:#4d473f;
 }
-.ram{
-    left: 50%;
-    margin-right: -50%;
-    top: 40%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+os{
+    margin: 0 auto;
 }
 hr{
     border: 1px solid black;
@@ -72,4 +68,10 @@ div a{
 }
 .active{
     background-color: #0e1014;
+}
+#os{
+    list-style-type: none;
+    width: 240px;
+    margin: 0 auto;
+    padding: 0;
 }
