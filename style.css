@@ -11,8 +11,6 @@ ul{
     background-color:#222831;
     margin: 0;
     padding: 0;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     position: sticky;
     top: 0;
 }
@@ -20,6 +18,7 @@ ul::after{
     content: "";
     display: table;
     clear: both;
+    display: flex;
 }
 ul li{
     float: left;
@@ -65,9 +64,12 @@ hr{
 h2{
     font-size: 32px;
 }
-*{
-    cursor: url('Cursor.ico'), default
-}
 img{
     padding: 5px;
+}
+div a{
+    border-radius: 5px;
+}
+.active{
+    background-color: #0e1014;
 }
